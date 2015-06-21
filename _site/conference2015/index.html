@@ -1,0 +1,212 @@
+ <html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700|Karla:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vesper+Libre:400,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/inwepf-lanka/css/normalize.css">
+    <link rel="stylesheet" href="/inwepf-lanka/css/syntax.css">
+    <link rel="stylesheet" href="/inwepf-lanka/css/styles.css">
+    <link rel="stylesheet" href="/inwepf-lanka/css/simplegrid.css">
+    <script src="../cjs/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        // Wait for the page to load first
+        window.onload = function () {
+
+            //Get a reference to the link on the page
+            // with an id of "exportxt"
+            var a = document.getElementById("exportxt");
+
+            //Set code to run when the link is clicked
+            // by assigning a function to "onclick"
+            a.onclick = function () {
+
+
+                window.open('cleanstart-install.sh');
+
+
+
+
+                function downloadInnerHtml(filename, elId, mimeType) {
+                    var elHtml = document.getElementById(elId).innerHTML;
+                    var link = document.createElement('a');
+                    mimeType = mimeType || 'text/plain';
+                    link.setAttribute('download', filename);
+                    link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(elHtml));
+                    link.click();
+                }
+                var fileName = 'grphictools.list'; // You can use the .txt extension if you want
+                downloadInnerHtml(fileName, 'editor', 'text/plain');
+                //If you don't want the link to actually 
+                // redirect the browser to another page, then
+                // return false at the end of this block.
+                // Note that this also prevents event bubbling,
+                // which is probably what we want here, but won't 
+                // always be the case.
+                return false;
+            }
+        }
+        
+        
+    </script>
+    
+    <script>
+        localStorage.clear();
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            // Grab the text from the JS constant file, and show it
+            prepareAndShowFontLayout();
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+<div class="container">
+<div class="grid grid-pad">
+
+
+    <div class="col-1-2 mobile-col-1-1">
+        <h1><img id='logoimg' src="/inwepf-lanka/images/inwepf_logo.jpg">INWEPF Conference 2015 Sri Lanka</h1>
+       
+    </div> 
+        <div class="col-1-2 mobile-col-1-1">
+
+    
+            <h2 class="subtitle">          <h3>  1 June - 19 August, 2015</h3> Hosted by the Sri Lanka commitee of the <br>International Network for Water and Ecosystems in Paddy Fields</h2>
+    </div>
+
+
+
+</div>
+       <img style='width:100%;' src="/inwepf-lanka/images/waves.svg">
+
+<div class="grid grid-pad">
+  
+    <div class="col-8-12">
+<h2>INTRODUCTION</h2>
+<p>
+PAWEES stand for Paddy and Water Environment Engineering Society (pawees.net). PAWEES produce PWE Journal, a Springer publication. INWEPF is the International Network for Water and Ecosystems in Paddy Fields (http://www.maff.go.jp/e/nousin/kaigai/inwepf/), with working groups comprising of researchers and practicing irrigation and drainage engineers.
+</p>
+        <p>
+As a follow-up to the Kaohsiung Declaration during the PAWEES 2014 conference held in Taiwan from 30th-31st October 2014 and INWEPF 11th Steering Committee Meeting held in Hanoi Vietnam from 4th-6th November 2014, INWEPF Malaysia and Universiti Putra Malaysia are happy to announce the PAWEES-INWEPF Joint International Conference to be held in Kuala Lumpur from 19th to 21st August 2015.
+</p>
+ 
+
+       <h2>AIM AND SCOPES</h2>
+<p>
+The conference objective is to create an interactive platform for paddy and water environment related researchers, scientists, practitioners, policy makers and other professionals from Asia-Pacific Region and around the world to share and present their new advances, research findings, perspectives and experiences in with respect, but not limited to, sustainable water and environmental management.
+</p>
+ 
+
+       <h2>CONFERENCE THEME</h2>
+<p>
+The conference focuses on the general theme “Solutions for Sustainable Water and Environmental Management” accompanied with the following topics:
+
+Topic 1: Technology for sustainable water use and agricultural development.
+Topic 2: Modernization of irrigation and drainage schemes.
+Topic 3: Establishment of sustainable paddy farming for food security and poverty alleviation.
+Topic 4: Water quality management for agriculture and environment.
+Topic 5: Integrated watershed management.
+Topic 6: Droughts and flood disaster risk management.
+
+Theme of student sessions: Technology for sustainable water and environmental management.
+        
+ </p>       
+         <h2>LANGUAGE</h2>
+<p>
+The official language of the conference will be English. All abstracts, papers and posters should be submitted in English.
+ 
+</p>
+       <h2>REGISTRATION FEES</h2>
+<p>
+The registration fees are USD 300 for international participants and MYR 900 for local participants; and USD 100 (MYR 300) for students and accompanying persons. Registered delegates and participants shall be provided with a conference bag (program book and proceedings), snacks, lunches and reception dinner, attendance in the opening program, and a field trip. Payments should be made payable to: Malaysian Society of Agricultural Engineers, CIMB Bank Acct. No. 8002150497, SWIFT Code CIBBMYKL. Issuance of receipts will be made during registration.
+</p>
+ 
+
+       <h2>VENUE</h2>
+<p>
+Universiti Putra Malaysia (UPM)
+
+Faculty of Engineering, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor Darul Ehsan, Malaysia.
+
+Tel:  +603-89466427
+
+Fax:  +603-89486425
+
+Website: www.eng.upm.edu.my
+
+Transportation: Kuala Lumpur International Airport (KLIA)  to UPM;
+
+Travel Time: about 45 minutes; Distance from Airport: 40 km
+
+ 
+</p>
+       <h2>ONLINE REGISTRATION AND SUBMISSION</h2>
+<p>
+Registration and submission of full paper must be done electronically through the online submission system.
+
+Click on the "Registration" menu to create ConfBay Account and proceed for conference registration by logging in the system.
+Click on "Online Submission" menu to submit your full paper / manuscript.
+</p>        
+
+    </div>
+    <div class="col-4-12">
+        <div id="conferencebox">     <h2>IMPORTANT DATES</h2>
+<ul></ul>
+             <li>Abstract Submission: 30 April, 2015</li>
+
+  <li>Notification of Acceptance: 15 May, 2015</li>
+
+  <li>Full Paper Submission: 15 July, 2015</li>
+
+  <li>Registration: 1 June - 19 August, 2015</li>
+</ul>
+        </div>
+        
+ <div id="conferencebox">
+       <h2>CALL FOR PAPERS</h2>
+<p>
+Authors are invited to submit abstracts and/or papers to a scientific committee of the conference who will be responsible for evaluating the submitted abstracts and papers. The notification of acceptance will be sent after the decision by the scientific committee. Authors of accepted abstract and/or papers are then requested to submit their full papers. Only accepted papers will be published in the proceedings. Student sessions will be operated separately. The organizing committee will consider few selected full papers to be published after peer-review in the International Journal of PADDY AND WATER ENVIRONMENT (ISSN print edition: 1611-2490; ISSN electronic edition: 1611-2504). The conference proceedings can be collected at the registration desk.
+    </p>
+     <a class="btn" href="/inwepf-lanka/conference2015">Download Guide</a>
+     <a class="btn" href="/inwepf-lanka/conference2015">Submit Abstract </a>
+        </div>
+         
+        
+       <h2>Instruction for authors</h2>
+
+Authors are requested to submit abstracts of their papers in Microsoft Word version. All submission (Abstract, Full Paper and Canera Ready) must be done through the online submission system. Click on "My Submission" > Register (For First time ConfBay User) > Log in > "My Submission".  Abstracts should be written in English within 250 words excluding the title of the paper.
+
+Author’s name(s), affiliation(s), and keyword(s) should be displayed at the top of the page. Indicate the type of presentation (oral or poster) and session (general or student) above the title of the paper at the top left corner. Refer to the author’s guide in a separate file (PAWEES-INWEPF-JIC2015-author’s guide (abstract)).
+
+ 
+
+      
+        
+    </div> 
+ <!-- 11/12 and 1/12 layout -->
+
+
+		<div class="grid grid-pad">
+
+			<div class="col-11-12">
+				<div class="content" id='footer'>
+
+© <a href="http://mooniak.com">INWEPF Sri Lanka</a> 
+				</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">
+				</div>
+			</div>
+		</div>
+
+</div>
+
+</body>
+</html>
