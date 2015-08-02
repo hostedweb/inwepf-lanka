@@ -2,12 +2,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:700|Karla:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Vesper+Libre:400,500,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/simplegrid.css">
     <script src="../cjs/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script type="text/javascript">
@@ -38,19 +38,19 @@
                 }
                 var fileName = 'grphictools.list'; // You can use the .txt extension if you want
                 downloadInnerHtml(fileName, 'editor', 'text/plain');
-                //If you don't want the link to actually 
+                //If you don't want the link to actually
                 // redirect the browser to another page, then
                 // return false at the end of this block.
                 // Note that this also prevents event bubbling,
-                // which is probably what we want here, but won't 
+                // which is probably what we want here, but won't
                 // always be the case.
                 return false;
             }
         }
-        
-        
+
+
     </script>
-    
+
     <script>
         localStorage.clear();
     </script>
