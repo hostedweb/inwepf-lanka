@@ -2,7 +2,7 @@ safe: false
 lsi: false
 pygments: true
 
-baseurl:               /
+baseurl:               
 
 # About/contact
 author:
